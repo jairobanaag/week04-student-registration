@@ -36,7 +36,7 @@ class StudentController extends Controller
             'middle_name' => 'nullable|string|max:100',
             'last_name' => 'required|string|max:100',
             'email' => 'required|email|unique:students',
-            'mobile_number' => 'required|numeric',
+            'mobile_number' => 'required|digits:11',
             'gender' => 'required',
             'date_of_birth' => 'required|date',
             'program' => 'required',
