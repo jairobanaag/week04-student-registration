@@ -4,6 +4,13 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
+/**
+ * Student Model
+ *
+ * Represents a registered student record, including
+ * personal information, academic details, and the
+ * path to their uploaded profile picture.
+ */
 class Student extends Model
 {
     protected $fillable = [
