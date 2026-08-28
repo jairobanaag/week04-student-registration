@@ -26,7 +26,9 @@ class StudentController extends Controller
     }
 
     /**
-     * Store a newly created student in storage.
+     * Validate the incoming registration data, upload the
+     * student's profile picture to public storage, and
+     * store the new student record in the database.
      */
     public function store(Request $request)
     {
